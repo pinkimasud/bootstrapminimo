@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header section */
+.head{
+    padding: 30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-left: 50px;
+}
+/* banner-background img section start */
+/* .banner-image img{
+    width: 100%;
+} */
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+/* banner content section */
+.banner-content{
+    margin-top: 70px;
+}
+span{
+    font-size: 16px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+}
+h1{
+    color:#626262 ;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+p{
+    color:#626262 ;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+/* items section start */
+ .item-image{
+    position: relative;
+    margin: 20px 0px;
+    /* box-sizing: border-box;
+    overflow: hidden; */
+}
+/*.item-image:hover img{
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+} */
+.item-image img{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+/* newsletter section start */
+.hg{
+    height: 250px;
+}
+.newsletter{
+    background-color: #f0f0f0;
+    margin-bottom: 40px; 
+}
+.newsletter-content{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+.newsletter h1{
+   font-family:'Playfair Display', serif;
+   text-transform: uppercase;
+   color:#626262;
+   margin-bottom:50px;
+   font-size: 29px;
+}
+.newsletter input{
+   border: none;
+   background-color: transparent;
+   border-bottom:1px solid black;
+   width: 100%;
+}
+.icon img{
+    position: absolute;
+    right: 4%;
+    bottom: 0;
+}
+
+/* last item section start */
+.last-img{
+    margin-top: 20px;
+}
+/* load more button start */
+.button{
+    width: 250%;
+    background: transparent;
+    border: none;
+    margin-top: 49px;
+}
+/*footer section start*/
+footer{
+    background-color:#f0f0f0;
+    margin-top: 200px;
+ }
+ .hg-footer{
+    height: 140px;
+ }
+ .footer-content{
+     width: 80%;
+     margin: auto;
+     overflow: hidden;
+     padding-top: 40px;
+ }
+ .terms ul{
+     list-style: none;
+ }
+ .terms ul li a{
+     margin: 10px;
+     color:#626262;
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+ .social-follow ul li a{
+     color:#626262;
+    margin-left: 25px;
+}
+ .social-follow ul li a:hover{
+     color: cornflowerblue;
+ }
